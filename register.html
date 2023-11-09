@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Registrarse | Segurity Lab.</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box-img">
+            <img src="Assets/img/fondo-login.jpg" alt="">
+            <div class="box-text">
+
+            </div>
+        </div>
+        <div class="box-formulario">
+            <form method="post" action="register.php" name="signup-form">
+                <h1>Registrate</h1>
+                <div class="caja-datos">
+                    
+                    <input type="email" name="email" placeholder="Correo" pattern="[a-zA-Z0-9]+" required />
+                    <i class='bx bxs-envelope' ></i>
+                </div>
+                <div class="caja-datos">
+                    
+                    <input type="text" name="username" placeholder="Usuario" required />
+                    <i class='bx bxs-user' ></i>
+                </div>
+                <div class="caja-datos">
+                    
+                    <input type="password" name="password" placeholder="Contraseña" required />
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <button type="submit" name="register" class="btn" value="register">Registrarse</button>
+                <div class="register-link">
+                    <p>¿Ya tienes cuenta? <a href="login.html">Iniciar sesion</a></p>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
